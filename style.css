@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", "Verdana, Geneva, Tahoma", sans-serif;
+}
+
+.html {
+  font-size: 100%;
+}
+
+body {
+  background-color: rgb(11, 89, 206);
+}
+
+.header {
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  text-align: center;
+  background-color: white;
+  font-size: 5rem;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: red;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 2px solid black;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.box {
+  border: 2px solid red;
+  font-size: 8rem;
+  text-align: center;
+  background-color: white;
+  color: red;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.result {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 20px;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.restart {
+  font-size: 2.5rem;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.restart:hover {
+  background-color: antiquewhite;
+}
